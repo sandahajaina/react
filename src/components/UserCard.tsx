@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-interface UserCardProps {
+export interface UserCardProps {
     username: string;
     age: number;
     city: string;

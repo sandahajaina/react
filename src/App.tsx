@@ -1,7 +1,8 @@
 import './App.css'
 import UserCard from './components/UserCard';
 import type { UserCardProps } from './components/UserCard';
-import { use, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 interface AppUser extends UserCardProps {
     id: number;
